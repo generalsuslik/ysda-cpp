@@ -10,7 +10,8 @@
 
 class Semaphore {
 public:
-    explicit Semaphore(int count) : count_{count} {
+    explicit Semaphore(int count) : count_{count}
+    {
     }
 
     void Acquire(auto callback) {
